@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/jabirep/ci-cd-study.git'
+                git branch: 'main', credentialsId: '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' url: 'https://github.com/jabirep/ci-cd-study.git'
             }
         }
 
