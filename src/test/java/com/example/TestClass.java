@@ -1,0 +1,16 @@
+package com.example;
+
+import org.testng.annotations.Test;
+
+public class TestClass extends BaseClass{
+
+     @Test
+    public void testValidLogin() {
+
+        LoginPage loginPage = new LoginPage(driver);
+        
+        loginPage.login("student", "Password123");
+        //Assert.assertEquals(driver.getTitle(), "Dashboard");
+    }
+
+}

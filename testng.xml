@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CI-CD Test Suite" verbose="1" parallel="false" thread-count="1">
+    <!-- Global parameters -->
+    <parameter name="browser" value="chrome"/>
+    <parameter name="baseUrl" value="https://practicetestautomation.com/practice-test-login/"/>
+
+    <!-- Example test -->
+    <test name="SmokeTests">
+        <classes>
+            <!-- Replace with your fully qualified test class names -->
+            <class name="com.example.BaseClass"/>
+            <class name="com.example.LoginPage"/>
+            <class name="com.example.TestClass"/>
+        </classes>
+    </test>
+</suite>
