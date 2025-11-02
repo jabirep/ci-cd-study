@@ -11,6 +11,10 @@ public class TestClass extends BaseClass{
         
         loginPage.login("student", "Password123");
         //Assert.assertEquals(driver.getTitle(), "Dashboard");
+
+        String tittle=driver.getTitle();
+
+        System.out.println("The tittle is :"+tittle);
     }
 
 }
