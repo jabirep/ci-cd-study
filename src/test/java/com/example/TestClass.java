@@ -15,6 +15,7 @@ public class TestClass extends BaseClass{
         String tittle=driver.getTitle();
 
         System.out.println("The tittle is :"+tittle);
+        System.out.println("Login Successful");
     }
 
 }
